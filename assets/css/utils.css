@@ -1,0 +1,43 @@
+.text-12{
+    font-size: 12px;
+}
+
+.text-18{
+    font-size: 18px;
+}
+
+.text-30{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text-60{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.text-coral{
+    color: #FF351F;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+hr:not([size]) {
+    height: 0.5px;
+}
+
+.border-right{
+    border-right: 1px solid #fff;
+}
+
+.height-50{
+    height: 50px;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

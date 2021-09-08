@@ -1,0 +1,122 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    #top-header{
+        height: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: none;
+    }
+    #top-header .phone{
+       width: 30vw;
+    }
+
+    .header-socials{
+        justify-content:center;
+    }
+
+    #features-block{
+        margin-top: 150px;
+    }
+
+    #background{
+        position: unset;
+    }
+    
+    #floating-box{
+        position: unset;
+    }
+
+    #numbers{
+        position: unset;
+    }
+    #numbers .numbers-main {
+        width: 100%
+    }
+    #project-heading{
+        flex-direction: column;
+    }
+    #testimonials-header{
+        position: unset;
+    }
+    .testimonial-slider{
+        flex-direction: column;
+        position: unset;
+    }
+
+    #side-enquiry-form-box{
+        width: 90vw;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #main-banner-image{
+        height: 42vh;
+    }
+
+    .details{
+        width: 94%;
+    }
+
+    #footer-block{
+        margin-bottom: 70px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    /* #top-header{
+        height: 4rem;
+    }
+
+    #banner-area{
+        height: unset;
+    }
+
+    #banner-area .col-md-4, #banner-area .col-md-8{
+        width: 50%;
+    }
+
+    #banner-image img{
+        height: 450px;
+    }
+
+    #features-block .col-md-3{
+        width: 50%;
+        text-align: center;
+    }
+    
+    #background{
+        position: unset;
+    }
+    
+    #floating-box{
+        position: unset;
+    }
+    
+    #floating-box .col-md-5{
+        width: 100%;
+    }
+    
+    #numbers .col-md-5{
+        width: 100%;
+    }
+
+    #numbers{
+        position: unset;
+    }
+
+    #aminities .col-md-3{
+        width: 50%;
+    } */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* -Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}

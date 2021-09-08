@@ -1,0 +1,277 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary-color: #FF351F;
+  }
+  
+
+/* Prevents body movement when modal is open */
+body.modal-open {
+    width: 100% !important;
+    padding-right: 0 !important;
+    overflow-y: scroll !important;
+}
+
+.form-control:focus, .btn:focus, .form-select:focus{
+    border-color: #cccccc;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#top-header{
+    width: 100vw;
+    height: 2rem;
+    background-color: rgb(15, 6, 53);
+}
+
+.header-socials{
+    display: flex;
+    justify-content:flex-end;
+}
+
+#banner-area{
+    width: 100vw;
+    height: 90vh;
+    /* background-color: aqua; */
+}
+
+#logo{
+    padding: 0 30px;
+    padding-top: 10px;
+}
+
+#form{
+    padding: 20px;
+}
+#form select{
+    height: 38px;
+}
+
+#form input, #form select, #form textarea, #form button{
+    border-radius: 0;
+}
+
+#right-enquiry-form{
+    padding: 40px;
+}
+
+#right-enquiry-form input, #right-enquiry-form select, #right-enquiry-form textarea{
+    border-radius: 0;
+    background: transparent;
+}
+
+#right-enquiry-form select option{
+    color: #111;
+}
+
+#enquiry-form select{
+    height: 38px;
+}
+
+.months-btn{
+    color: #111;
+    width: 90px;
+    height: 50px;
+    font-size: 13px;
+    background: transparent;
+    border: none;
+    border: 0.1px solid #e0e0e0;
+}
+
+.months-btn:hover, .on-active{
+    background: var(--primary-color) !important;
+    border: none
+}
+
+#main-banner-image{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    /* opacity: 0.7; */
+}
+
+#banner-image{
+    position: relative;
+}
+
+/* Image overlay */
+/* #banner-image::after{
+    content: '';
+    position: absolute;
+    width: 100%; 
+    height:100%;
+    top:0; 
+    left:0;
+    background: #111;
+    opacity: 0.6;
+} */
+
+.banner-caption{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 999;
+}
+
+::-webkit-input-placeholder, #form select, #enquiry-form select {
+    /* Chrome/Opera/Safari */
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#form button{
+    background: var(--primary-color);
+    border: 0;
+}
+
+#features-block{
+    background: rgb(252, 249, 249);
+}
+
+#features-block .col-md-3{
+    text-align: center;
+}
+
+#background{
+    position: relative;
+}
+
+#floating-box{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 99;
+}
+
+#numbers{
+    position: absolute;
+    right: 200px;
+    top: 380px;
+    z-index: 99;
+}
+
+#numbers .numbers-main{
+    width: 500px;
+    padding: 20px 80px;
+}
+
+.number-heading{
+    color: var(--primary-color);
+}
+
+#project-heading .number-heading{
+    line-height: 15px;
+}
+
+#project-heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+#testimonials-background{
+    background-image: url("../images/testimonials/banner-3.jpg");
+}
+
+.testimonial-block{
+    margin-right: 10px;
+}
+
+.testimonial-slider{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 110px;
+    left: 130px;
+}
+
+.testimonial-block{
+    background: #fafafa;
+    width: 500px;
+}
+
+#google-map{
+    margin-top: 100px;
+}
+
+.orange-icon{
+    color: var(--primary-color);
+}
+
+#footer1, .socials{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Slick slider */
+.slick-prev:before, .slick-next:before {
+    color: var(--primary-color);
+}
+
+.slider{
+    margin-top: 30px;
+}
+
+.enquiry-btn{
+    margin-top: -22px;
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.modal {
+    background: rgba(1, 1, 1, 0.3);
+    position: absolute;
+    float: left;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .modal-content{
+    border-radius: 0;
+  }
+
+  .project{
+      position: relative;
+  }
+  .details::after{
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgb(1, 1, 1);
+      opacity: 0.7;
+      width: 100%;
+      z-index: -1;
+  }
+
+  .details{
+      position: absolute;
+      bottom: 0px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 95.5%;
+      color: #fff;
+      padding: 20px 20px 5px 20px;
+  }
+
+  #floating-button{
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      height: 50px;
+      color: #fff;
+      background: #111;
+  }
