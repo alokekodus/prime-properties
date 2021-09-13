@@ -125,9 +125,11 @@
                 <div id="banner-image">
                     <picture>
                         <!-- On Phone -->
-                        <source media="(max-width: 576px)" srcset="assets/images/banner/banner-with-logo.png" width="100%">
+                        <source media="(max-width: 576px)" srcset="assets/images/banner/banner-with-logo.png"
+                            width="100%">
                         <!-- On Tab -->
-                        <source media="(max-width: 768px)" srcset="assets/images/banner/banner-with-logo.png" width="100%">
+                        <source media="(max-width: 768px)" srcset="assets/images/banner/banner-with-logo.png"
+                            width="100%">
                         <!-- On Desktop -->
                         <img src="assets/images/banner/banner.png" width="100%">
                     </picture>
@@ -249,11 +251,13 @@
                             style="object-fit: cover;" />
                         <div class="details">
                             <div class="d-flex justify-content-between align-items-center">
-                                <p class="text-18 fw-bold">
-                                    Prime Imperia <br />
-                                    <span class="text-12">Khanapara, Guwahati</span>
-                                </p>
-                                <button class="btn rounded-0 enquiry-btn" data-value="1">Enquiry</button>
+                                <div>
+                                    <p class="text-20 fw-bold">Prime Imperia</p>
+                                    <p class="text-12 line-height-2">4BHK | 1300 Sqft | &#8377; 35L+</p>
+                                    <p class="text-12 line-height-2">Khanapara, Guwahati</p>
+                                </div>
+                                <button class="btn shadow enquiry-btn" data-value="1"><i
+                                        class="far fa-file-alt"></i>&nbsp;&nbsp;Enquiry</button>
                             </div>
                         </div>
                     </div>
@@ -262,11 +266,13 @@
                             style="object-fit: cover;" />
                         <div class="details">
                             <div class="d-flex justify-content-between align-items-center">
-                                <p class="text-18 fw-bold">
-                                    Sky Villa <br />
-                                    <span class="text-12">Bamunimaidam, Guwahati</span>
-                                </p>
-                                <button class="btn rounded-0 enquiry-btn" data-value="2">Enquiry</button>
+                                <div>
+                                    <p class="text-18 fw-bold">Sky Villa</p>
+                                    <p class="text-12 line-height-2">4BHK | 1300 Sqft | &#8377; 35L+</p>
+                                    <p class="text-12 line-height-2">Bamunimaidam, Guwahati</p>
+                                </div>
+                                <button class="btn enquiry-btn" data-value="2"><i
+                                        class="far fa-file-alt"></i>&nbsp;&nbsp;Enquiry</button>
                             </div>
                         </div>
                     </div>
@@ -275,11 +281,13 @@
                             style="object-fit: cover;" />
                         <div class="details">
                             <div class="d-flex justify-content-between align-items-center">
-                                <p class="text-18 fw-bold">
-                                    A Imperia <br />
-                                    <span class="text-12">VIP Road, Guwahati</span>
-                                </p>
-                                <button class="btn rounded-0 enquiry-btn" data-value="3">Enquiry</button>
+                                <div>
+                                    <p class="text-18 fw-bold">A Imperia</p>
+                                    <p class="text-12 line-height-2">4BHK | 1300 Sqft | &#8377; 35L+</p>
+                                    <p class="text-12 line-height-2">VIP Road, Guwahati</p>
+                                </div>
+                                <button class="btn enquiry-btn" data-value="3"><i
+                                        class="far fa-file-alt"></i>&nbsp;&nbsp;Enquiry</button>
                             </div>
                         </div>
                     </div>
@@ -288,11 +296,13 @@
                             style="object-fit: cover;" />
                         <div class="details">
                             <div class="d-flex justify-content-between align-items-center">
-                                <p class="text-18 fw-bold">
-                                    Krishna Greens <br />
-                                    <span class="text-12">Kahilipara, Guwahati</span>
-                                </p>
-                                <button class="btn rounded-0 enquiry-btn" data-value="4">Enquiry</button>
+                                <div>
+                                    <p class="text-18 fw-bold">Krishna Greens</p>
+                                    <p class="text-12 line-height-2">4BHK | 1300 Sqft | &#8377; 35L+</p>
+                                    <p class="text-12 line-height-2">Kahilipara, Guwahati</p>
+                                </div>
+                                <button class="btn enquiry-btn" data-value="4"><i
+                                        class="far fa-file-alt"></i>&nbsp;&nbsp;Enquiry</button>
                             </div>
                         </div>
                     </div>
@@ -541,7 +551,8 @@
             <div class="col-md-12">
                 <div class="row">
                     <div class="col-6 height-50 flex-center order-2"><i class="fas fa-phone-alt text-light me-2"></i>
-                        <a class="text-decoration-none text-light" href="tel:+919864125580">Call</a></div>
+                        <a class="text-decoration-none text-light" href="tel:+919864125580">Call</a>
+                    </div>
                     <div class="col-6 height-50 flex-center border-right order-1" id="enquire-float-btn"><i
                             class="fas fa-share-square text-light me-2"></i>Enquire
                     </div>
@@ -621,7 +632,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
-    </script>
+        </script>
 
     <!-- Slick slider -->
     <script src="assets/plugins/slick/slick.min.js"></script>
@@ -636,28 +647,28 @@
             slidesToShow: 2,
             slidesToScroll: 1,
             responsive: [{
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        infinite: true,
-                        dots: true,
-                    },
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true,
                 },
-                {
-                    breakpoint: 600,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                    },
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
                 },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                    },
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
                 },
+            },
                 // You can unslick at a given breakpoint now by adding:
                 // settings: "unslick"
                 // instead of a settings object
