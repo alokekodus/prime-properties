@@ -101,7 +101,7 @@
                                 <option selected>Select Projects</option>
                                 <option value="1">Prime Imperia</option>
                                 <option value="2">Sky Villa</option>
-                                <option value="3">Achyut Imperia</option>
+                                <option value="3">A Imperia</option>
                                 <option value="4">Krishna Greens</option>
                             </select>
 
@@ -123,7 +123,14 @@
             <!-- Right image -->
             <div class="col-md-8">
                 <div id="banner-image">
-                    <img src="assets/images/banner/banner.png" id="main-banner-image" alt="" />
+                    <picture>
+                        <!-- On Phone -->
+                        <source media="(max-width: 576px)" srcset="assets/images/banner/banner-with-logo.png" width="100%">
+                        <!-- On Tab -->
+                        <source media="(max-width: 768px)" srcset="assets/images/banner/banner-with-logo.png" width="100%">
+                        <!-- On Desktop -->
+                        <img src="assets/images/banner/banner.png" width="100%">
+                    </picture>
                     <div class="banner-caption text-center">
                         <!-- <img src="assets/images/logo/logo.PNG" class="mx-auto d-sm-none d-block" alt="Logo"
                             width="150" /> -->
@@ -499,7 +506,7 @@
     <!-- Footer -->
     <div id="footer-block" class="container mt-5">
         <div id="footer1">
-            <img src="assets/images/logo/logo.PNG" alt="Logo" width="150" />
+            <img src="assets/images/logo/logo.png" alt="Logo" width="150" />
             <div class="socials">
                 <div class="social-header mt-3 me-3">
                     <p>Follow Us</p>
@@ -580,7 +587,7 @@
                             <option selected disabled>Select Projects*</option>
                             <option value="1">Prime Imperia</option>
                             <option value="2">Sky Villa</option>
-                            <option value="3">Achyut Imperia</option>
+                            <option value="3">A Imperia</option>
                             <option value="4">Krishna Greens</option>
                         </select>
 
