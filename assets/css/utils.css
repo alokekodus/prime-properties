@@ -41,3 +41,7 @@ hr:not([size]) {
     justify-content: center;
     align-items: center;
 }
+
+.text-bold-600{
+    font-weight: 600;
+}
