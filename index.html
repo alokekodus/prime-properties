@@ -20,6 +20,9 @@
     <link rel="stylesheet" href="assets/plugins/slick/slick.css" />
     <link rel="stylesheet" href="assets/plugins/slick/slick-theme.css" />
 
+    <!-- Lightbox -->
+    <link rel="stylesheet" href="assets/plugins/lightbox/css/master.css">
+
     <!-- Stylesheets -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/utils.css" />
@@ -250,9 +253,9 @@
                 <div class="row">
 
                     <!-- Imperial Vista -->
-                    <div class="col-md-6 mb-3 project">
-                        <img src="assets/images/projects/1.jpeg" alt="" width="100%" height="100%"
-                            style="object-fit: cover;" />
+                    <div class="col-md-6 mb-3 project images">
+                            <img src="assets/images/projects/1.jpeg" alt="" width="100%" height="100%"
+                                style="object-fit: cover;" />
                         <div class="details">
                             <div class="d-flex justify-content-between align-items-center">
                                 <div>
@@ -267,7 +270,7 @@
                     </div>
 
                     <!-- Sky Villa -->
-                    <div class="col-md-6 mb-3 project">
+                    <div class="col-md-6 mb-3 project images">
                         <img src="assets/images/projects/2.jpeg" alt="" width="100%" height="100%"
                             style="object-fit: cover;" />
                         <div class="details">
@@ -284,7 +287,7 @@
                     </div>
 
                     <!-- A Imperia -->
-                    <div class="col-md-6 mb-3 project">
+                    <div class="col-md-6 mb-3 project images">
                         <img src="assets/images/projects/3.jpeg" alt="" width="100%" height="100%"
                             style="object-fit: cover;" />
                         <div class="details">
@@ -301,7 +304,7 @@
                     </div>
 
                     <!-- Krishna Greens -->
-                    <div class="col-md-6 mb-3 project">
+                    <div class="col-md-6 mb-3 project images">
                         <img src="assets/images/projects/4.jpeg" alt="" width="100%" height="100%"
                             style="object-fit: cover;" />
                         <div class="details">
@@ -318,7 +321,7 @@
                     </div>
 
                     <!-- Global Signature -->
-                    <div class="col-md-6 mb-3 project">
+                    <div class="col-md-6 mb-3 project images">
                         <img src="assets/images/projects/5.jpeg" alt="" width="100%" height="100%"
                             style="object-fit: cover;" />
                         <div class="details">
@@ -335,7 +338,7 @@
                     </div>
 
                     <!-- Piya Hill View -->
-                    <div class="col-md-6 mb-3 project">
+                    <div class="col-md-6 mb-3 project images">
                         <img src="assets/images/projects/6.jpeg" alt="" width="100%" height="100%"
                             style="object-fit: cover;" />
                         <div class="details">
@@ -673,6 +676,11 @@
         </div>
     </div>
 
+    <div id="image-viewer">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="full-image">
+      </div>
+
     <!-- Scripts -->
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -680,6 +688,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
         </script>
+
+    <!-- Lightbox -->
+    <script src="assets/plugins/lightbox/js/main.js"></script>
 
     <!-- Slick slider -->
     <script src="assets/plugins/slick/slick.min.js"></script>
