@@ -280,3 +280,8 @@ body.modal-open {
   img{
       border-radius: 0;
   }
+
+  #background img{
+    height: 80vh; 
+    object-fit:cover;
+  }
