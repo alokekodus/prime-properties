@@ -199,9 +199,9 @@ body.modal-open {
     width: 500px;
 }
 
-#google-map{
+/* #google-map{
     margin-top: 100px;
-}
+} */
 
 .orange-icon{
     color: var(--primary-color);
@@ -275,4 +275,8 @@ body.modal-open {
       height: 50px;
       color: #fff;
       background: #111;
+  }
+
+  img{
+      border-radius: 0;
   }
